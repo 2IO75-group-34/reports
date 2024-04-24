@@ -2,7 +2,7 @@
 
 Maintained by: Amir Nurmukhambetov (1930907)
 
-## First Meeting
+## First Meeting [23 Apr 2024]
 
 We chatted with neigbouiring group 33. We decided to work with for now but the whole group hasn't yet decided.
 
@@ -13,16 +13,16 @@ We started to brainstorm ideas:
 **ideas:**
 
 - [ ] **NFC tagged baggage**. Where NFC indicates where the baggage should go. Similar to how baggage is transported do different planes.
-- [ ] **Weight sorting**. Customized baggage with different weight distrubtion, based on it sort them.
-- [ ] **Main brain system**. A system which dictates other sub-subsystems adjacent to it.
-- [ ] **Morse code ouput**. A robot that outputs baggage in a way to display morse code.
+- [x] **Weight sorting**. Customized baggage with different weight distrubtion, based on it sort them.
+- [x] **Main brain system**. A system which dictates other sub-subsystems adjacent to it.
+- [x] **Morse code ouput**. A robot that outputs baggage in a way to display morse code.
 - [ ] **Rotating table of baskets**.
-- [ ] **Water convayerbelt**. Have boats that transport baggages.
-- [ ] **Binary Addition**. Inputting in a black/white baggages in coresponding way outputs a result of addition in binary.
-- [ ] **Lost & Found Storage**. Sort baggages in some way and using vertical space as storage (done via elevator)
-- [ ] **Carwash**. A robot sorts baggage into clean and dirty. Then all dirty baggages are getting cleaned like a carwash.
-- [ ] **Platics warpper**. From NFC those baggages that are type wrap are wrapped and then sorted somewhere else.
-- [ ] **Alphabet sorter**. Each baggage has a letter assigned the robot sorts by letter then from user input outputs the correct text. This idea can be extended to work with the other group that manages storage related functionality.
+- [x] **Water convayerbelt**. Have boats that transport baggages.
+- [x] **Binary Addition**. Inputting in a black/white baggages in coresponding way outputs a result of addition in binary.
+- [x] **Lost & Found Storage**. Sort baggages in some way and using vertical space as storage (done via elevator)
+- [x] **Carwash**. A robot sorts baggage into clean and dirty. Then all dirty baggages are getting cleaned like a carwash.
+- [x] **Platics warpper**. From NFC those baggages that are type wrap are wrapped and then sorted somewhere else.
+- [x] **Alphabet sorter**. Each baggage has a letter assigned the robot sorts by letter then from user input outputs the correct text. This idea can be extended to work with the other group that manages storage related functionality.
 
 **Possible cool features that can be implemented:**
 
@@ -30,7 +30,108 @@ We started to brainstorm ideas:
 - Using NFC we can store more detailed information about the baggage.
 - Elevator, Catapult, Zipline.
 
-Scrum master were decided:
+- Scrum Masters were decided:
+  - Eusebiu Puşcă
+  - Alexia Miliganu
 
--
-- Alexia
+## Second Meeting [24 Apr 2024]
+
+Went through ideas:
+
+### Binary Addition
+
+**Init idea:**
+
+two sequences of baggages representing each number are added and the result is displayed as a sequence of baggages. Then its get sorted.
+
+**Possible issues:**
+
+- How do we determine when the sequence is stopped for a certain number?
+  - **Solution(s):**
+  - A set sequence of 8bit would be inputted.
+  - If no baggage is received for after a certain threshold then it is considered as black = 0.
+  - We won't limit ourselves to two numbers, any amount can be possible.
+
+- A situation may occur where the number of white or black baggages are not enough to represent the summed result.
+  - **Solution(s):**
+  - Display the result using an LED screen display.
+
+- How do we resolve if the baggages arrive too quickly? More specifically they are clustered and the space in between each baggage is different.
+  - **Solution(s):**
+  - Don't disturb the sequence make sure the **color reader** is fast enough to determine bit.
+
+- Since the reviewer doesn't control the input the sequence is random. And so the result of addition can't be controlled.
+  - **Solution(s):**
+  - Before adding the sequence display the number that the 8bit chunk represents.
+
+**Revised edition:**
+
+Robot that reads a sequence of baggages in white/black. Each bag represents a bit either 1 or 0 depending on its color. A sequence is split in 8bit chunks and all are summed. The result is displayed on a LED screen display, and latest number added is shown. After processing the bagges are sorted by color.
+
+### Alphabet Sorter
+
+**Init idea:**
+
+A sequence of baggages with english letters on each are inputted. The robot determines which letter is on each baggage after which stores is in a basket for a specific letter. The user would input the word they would like to display, after which the robot would output baggages with letters in a specific order such that the sequence shows the text user inputted.
+
+**Possible issues:**
+
+- The english alphabet contains 26 letters, this would involve 26 containers for storage, this would take too much space.
+- The robot must be autonamous, but this has a user prompt in the middle of the task, which is not allowed.
+- What happens if the baggage doesn't contain a letter, or contains a symbol that the storage can't be place.
+
+### HangMan
+
+![hangman image demo](./images/hangman.jpeg)
+
+**Init idea:**
+
+A sequence of baggages with english letters on each. A robot determines the letter on a bag. A screen display of the hangman game. The determined letter is checked if its contained in the word choosen, if true then the baggages are sorted by color, else if the letter is not in the word, the robot ignores them.
+
+**Possible issues:**
+
+- How do we determine the word for the hangman game? What happens if the word is guessed correctly?
+  - **Solution(s):**
+  - The robot contains a word pool from which it selects randomly.
+- How to handle letters that can't be recognized?
+  - **Solution(s):**
+  - The baggage is set as not in word.
+  - Perhaps the robot could display a recognition percentage. Showing how likely it thinks that the letter on the bag is a certain letter.
+
+### Connect Random 4
+
+![connect random 4 demo](./images/connect-random-4.jpeg)
+
+**Init idea:**
+
+A sequence of baggages colored black and white is inputted. The robot sorts them by color (white / black). A robot and a player play connect 4 game against each other using sortted pieces.
+
+**Possible issues:**
+
+- For the robot to be autonamous no user be present. Therefore user player cannot exist.
+  - **Solution(s):**
+  - Instead of user against robot. Its gonna be robot against robot.
+
+- How we determine where the robot places its piece?
+  - **Solution(s):**
+  - For simplicity sakes, the robot randomly plays using a peg board.
+
+- How do we determine the game has ended?.
+  - **Solution(s):**
+  - A camera looking at the board determines what game state we are in currently.
+
+- What happens when the game is over.
+  - **Solution(s):**
+  - A convayer belt below picks all baggages after the lever (to drop all pieces) is pushed.
+
+**Revised idea:**
+
+A sequence of baggages colored white and black are inputted. A basic sorter sorts them by white and black. Player 1 (user) uses white baggage as pieces. Player 2 (robot) uses black baggages as pieces. Both play a connect 4 game using a peg board. This makes the input to the game random.
+
+**Alternatively:**
+
+Instead of having user play with white baggages. Have both random robots play against each other.
+
+### Other ideas
+
+Other ideas were discussed but weren't relevant enough to be written here.
