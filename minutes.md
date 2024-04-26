@@ -135,3 +135,25 @@ Instead of having user play with white baggages. Have both random robots play ag
 ### Other ideas
 
 Other ideas were discussed but weren't relevant enough to be written here.
+
+## Third Meeting [26 Apr 2024]
+
+- Everyone has done scrum quiz.
+
+- Eusebiu and Alexia started to document scrum planning. While everyone suggests their thought.
+
+- We have decided on tackle these challanges:
+  - Simulation-in-the-loop testing and digital twinning
+  - Communication protocols
+
+- Everyone worked on filling out the rubric (based on the challanges mentioned above).
+
+- Mentor agreed on idea **Hangman**
+
+We brought the parts from the locker to play with it. Balint decided to start to configure arduino board to work with the raspberry pi so that the motors work. The rest watched a video showcasing how to connect and assemble FischerTechnik pieces.
+
+Video(s):
+
+- [How to Use FischerTechnik Systems](https://www.youtube.com/watch?v=OtKxWEv9YuA)
+
+At the end, Balint took raspberry pi and arduino board home to work on it in more. I (Amir) took all pieces to see whats possible and how viable our idea. Eusebiu and Alexia decided to start learning how to 3D model.
