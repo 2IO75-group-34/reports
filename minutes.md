@@ -2,37 +2,27 @@
 
 Maintained by: Amir Nurmukhambetov (1930907)
 
-## First Meeting [23 Apr 2024]
+## Third Meeting [26 Apr 2024]
 
-We chatted with neigbouiring group 33. We decided to work with for now but the whole group hasn't yet decided.
+- Everyone has done scrum quiz.
 
-We created a github repository for managing all documents, like decision list, minutes, and logbooks. And added all team members.
+- Eusebiu and Alexia started to document scrum planning. While everyone suggests their thought.
 
-We started to brainstorm ideas:
+- We have decided on tackle these challanges:
+  - Simulation-in-the-loop testing and digital twinning
+  - Communication protocols
 
-**ideas:**
+- Everyone worked on filling out the rubric (based on the challanges mentioned above).
 
-- [ ] **NFC tagged baggage**. Where NFC indicates where the baggage should go. Similar to how baggage is transported do different planes.
-- [x] **Weight sorting**. Customized baggage with different weight distrubtion, based on it sort them.
-- [x] **Main brain system**. A system which dictates other sub-subsystems adjacent to it.
-- [x] **Morse code ouput**. A robot that outputs baggage in a way to display morse code.
-- [ ] **Rotating table of baskets**.
-- [x] **Water convayerbelt**. Have boats that transport baggages.
-- [x] **Binary Addition**. Inputting in a black/white baggages in coresponding way outputs a result of addition in binary.
-- [x] **Lost & Found Storage**. Sort baggages in some way and using vertical space as storage (done via elevator)
-- [x] **Carwash**. A robot sorts baggage into clean and dirty. Then all dirty baggages are getting cleaned like a carwash.
-- [x] **Platics warpper**. From NFC those baggages that are type wrap are wrapped and then sorted somewhere else.
-- [x] **Alphabet sorter**. Each baggage has a letter assigned the robot sorts by letter then from user input outputs the correct text. This idea can be extended to work with the other group that manages storage related functionality.
+- Mentor agreed on idea **Hangman**
 
-**Possible cool features that can be implemented:**
+We brought the parts from the locker to play with it. Balint decided to start to configure arduino board to work with the raspberry pi so that the motors work. The rest watched a video showcasing how to connect and assemble FischerTechnik pieces.
 
-- Screen display feature, to show users any addition
-- Using NFC we can store more detailed information about the baggage.
-- Elevator, Catapult, Zipline.
+Video(s):
 
-- Scrum Masters were decided:
-  - Eusebiu Puşcă
-  - Alexia Miliganu
+- [How to Use FischerTechnik Systems](https://www.youtube.com/watch?v=OtKxWEv9YuA)
+
+At the end, Balint took raspberry pi and arduino board home to work on it in more. I (Amir) took all pieces to see whats possible and how viable our idea. Eusebiu and Alexia decided to start learning how to 3D model.
 
 ## Second Meeting [24 Apr 2024]
 
@@ -136,24 +126,34 @@ Instead of having user play with white baggages. Have both random robots play ag
 
 Other ideas were discussed but weren't relevant enough to be written here.
 
-## Third Meeting [26 Apr 2024]
+## First Meeting [23 Apr 2024]
 
-- Everyone has done scrum quiz.
+We chatted with neigbouiring group 33. We decided to work with for now but the whole group hasn't yet decided.
 
-- Eusebiu and Alexia started to document scrum planning. While everyone suggests their thought.
+We created a github repository for managing all documents, like decision list, minutes, and logbooks. And added all team members.
 
-- We have decided on tackle these challanges:
-  - Simulation-in-the-loop testing and digital twinning
-  - Communication protocols
+We started to brainstorm ideas:
 
-- Everyone worked on filling out the rubric (based on the challanges mentioned above).
+**ideas:**
 
-- Mentor agreed on idea **Hangman**
+- [ ] **NFC tagged baggage**. Where NFC indicates where the baggage should go. Similar to how baggage is transported do different planes.
+- [x] **Weight sorting**. Customized baggage with different weight distrubtion, based on it sort them.
+- [x] **Main brain system**. A system which dictates other sub-subsystems adjacent to it.
+- [x] **Morse code ouput**. A robot that outputs baggage in a way to display morse code.
+- [ ] **Rotating table of baskets**.
+- [x] **Water convayerbelt**. Have boats that transport baggages.
+- [x] **Binary Addition**. Inputting in a black/white baggages in coresponding way outputs a result of addition in binary.
+- [x] **Lost & Found Storage**. Sort baggages in some way and using vertical space as storage (done via elevator)
+- [x] **Carwash**. A robot sorts baggage into clean and dirty. Then all dirty baggages are getting cleaned like a carwash.
+- [x] **Platics warpper**. From NFC those baggages that are type wrap are wrapped and then sorted somewhere else.
+- [x] **Alphabet sorter**. Each baggage has a letter assigned the robot sorts by letter then from user input outputs the correct text. This idea can be extended to work with the other group that manages storage related functionality.
 
-We brought the parts from the locker to play with it. Balint decided to start to configure arduino board to work with the raspberry pi so that the motors work. The rest watched a video showcasing how to connect and assemble FischerTechnik pieces.
+**Possible cool features that can be implemented:**
 
-Video(s):
+- Screen display feature, to show users any addition
+- Using NFC we can store more detailed information about the baggage.
+- Elevator, Catapult, Zipline.
 
-- [How to Use FischerTechnik Systems](https://www.youtube.com/watch?v=OtKxWEv9YuA)
-
-At the end, Balint took raspberry pi and arduino board home to work on it in more. I (Amir) took all pieces to see whats possible and how viable our idea. Eusebiu and Alexia decided to start learning how to 3D model.
+- Scrum Masters were decided:
+  - Eusebiu Puşcă
+  - Alexia Miliganu
