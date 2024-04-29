@@ -2,6 +2,18 @@
 
 Maintained by: Amir Nurmukhambetov (1930907)
 
+## Fourth Meeting [29 Apr 2024]
+
+Georgi has notified us that the idea **Hangman** doesn't represent a airport baggage system. We have pivoted the idea towards **baggage screening control system**.
+
+![](./images/baggage-screening-control-sytem.png)
+
+The basic premise of this idea is that the baggages are checked for their content. If the system detects a malliscious item then it gets flagged and is sent to the other team (or placed into flagged box). If the baggage is good, it get sorted into to classes: business and economy. If the bag is special it is considered to be personale baggage.
+
+Balint got the LED to work with the raspberry pi and arduino board. Motors and servos are in process, the current issue that we are facing is that the power for them are not compatible with the arduino board and raspberry pi.
+
+Joep, Eusebiu and Alexia worked on filling out the backlog.
+
 ## Third Meeting [26 Apr 2024]
 
 - Everyone has done scrum quiz.
