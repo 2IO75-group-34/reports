@@ -6,6 +6,7 @@
 
 - Alexia and Eusebiu finished writing the backlog
 - Balint got the motors and servos working!
+- Balint wrote documentation for his code
 - Georgi has approved the pivotted idea
 - Redesign of the idea for more realistic in scale and used less parts
 - Recorded a pitch video
