@@ -2,6 +2,26 @@
 
 Maintained by: Amir Nurmukhambetov (1930907)
 
+## Fifth Meeting [30 Apr 2024]
+
+Today we discussed the privoted idea with Georgi and it was approved with some slight modifications (renaming things etc).
+
+Balint got the motor and servo working with PWM and continuous motion. After which he started writing documentation on his work. It can be found on this [repo](https://github.com/2IO75-group-34/friendly-guacamole)
+
+Eusebiu and Alexia completed the backlog.
+
+I (Amir) and Joep worked on redesigning the robot so that it was more realistic in scale and used less parts. This allowed us to have a better understanding of what parts we need.
+
+![Redesigned Idea](./images/redesigned-idea.png)
+
+Joep, Balint, Amir, and Eusebiu started working on making a prototype design for the conveyer belt.
+
+![Conveyer belt in progress](./images/conveyer-belt-in-progress.jpeg)
+
+After which Eusebiu recorded a pitch video demonstration of our idea.
+
+- [Youtube link](https://www.youtube.com/watch?v=dQw4w9WgXcQ)
+
 ## Fourth Meeting [29 Apr 2024]
 
 Georgi has notified us that the idea **Hangman** doesn't represent a airport baggage system. We have pivoted the idea towards **baggage screening control system**.
