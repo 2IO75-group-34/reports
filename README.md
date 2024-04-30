@@ -33,6 +33,6 @@ Please follow the standards [here](./logbooks/README.md) to make sure repo was c
 - Amir Nurmukhambetov (1930907) [tue email](a.nurmukhambetov@tue.student.nl)
 - Balint Mecsei () [tue email](b.mecsei@student.tue.nl)
 - Ibrahim Oyman () [tue email](i.oyman@student.tue.nl)
-- Joep Van Morkhoven () [tue email](J.v.morkhoven@student.tue.nl)
+- Joep Van Morkhoven (1705105) [tue email](J.v.morkhoven@student.tue.nl)
 - Alexia ()[tue email](a.miliganu@student.tue.nl)
 - Eusebiu Pusca ()[tue email](e.a.pusca@student.tue.nl)
