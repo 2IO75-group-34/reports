@@ -2,6 +2,16 @@
 
 Maintained by: Amir Nurmukhambetov (1930907)
 
+## Sixth Meeting [3 May 2024]
+
+Today, we did the retrospective part of the meeting. After that we discussed the new model and progress of our project with Georgi. Georgi told us that we should distribute the tasks and everyone should assign themselves on a task on trello
+
+Joep built two more  conveyor belt parts.
+
+Afterwards, Balint adjusted the code to operate multiple motors we attempted to make 3 motors work simultaneously. Although 2 motors successfully ran together. We could not manage to get 3 of them working at the same time.
+
+Some debugging attempts later Balint managed to get 3 motors working simultaneously.
+
 ## Fifth Meeting [30 Apr 2024]
 
 Today we discussed the privoted idea with Georgi and it was approved with some slight modifications (renaming things etc).
