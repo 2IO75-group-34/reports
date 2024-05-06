@@ -8,9 +8,9 @@ Today, we did the retrospective part of the meeting. After that we discussed the
 
 Joep built two more  conveyor belt parts.
 
-Afterwards, Balint adjusted the code to operate multiple motors we attempted to make 3 motors work simultaneously. Although 2 motors successfully ran together. We could not manage to get 3 of them working at the same time.
+Afterwards, Balint adjusted the code to operate multiple motors we attempted to make 4 motors work simultaneously. Although 2 motors successfully ran together. We could not manage to get 4 of them working at the same time.
 
-Some debugging attempts later Balint managed to get 3 motors working simultaneously.
+Some debugging attempts later Balint managed to get 4 motors working simultaneously.
 
 ## Fifth Meeting [30 Apr 2024]
 
