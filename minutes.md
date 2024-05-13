@@ -2,11 +2,35 @@
 
 Maintained by: Amir Nurmukhambetov (1930907)
 
+## Ninth Meeting [13 May 2024]
+
+Today, during the beginning of the meeting we couldn't find the locker with parts.
+
+## Eighth Meeting [7 May 2024]
+
+Today unfortunately the raspberry pi got broken, so we had to get a replacement for it. Balint configured the new raspberry pi again to got working as previous.
+
+A possible problem which might have caused this is inproper wiring which caused it to short circuit. We would be more careful next time.
+
+Joep finished working on the prototype design (working belts) but we couldn't test if it works because of current raspberry pi issue.
+
+Ibrahim, Alexia, Eusebiu continued working on Unity.
+
+Joep worked on how NFC works, we managed to write data to the NFC tag.
+
+## Seventh Meeting [6 May 2024]
+
+Today, Eusebiu, Alexia, and Ibrahim continued working on Unity (Digital Twinning Challenge).
+
+Amir (me) and Joep started on implementing figma design in real life.
+
+Balint continued working on motors and software related part.
+
 ## Sixth Meeting [3 May 2024]
 
 Today, we did the retrospective part of the meeting. After that we discussed the new model and progress of our project with Georgi. Georgi told us that we should distribute the tasks and everyone should assign themselves on a task on trello
 
-Joep built two more  conveyor belt parts.
+Joep built two more conveyor belt parts.
 
 Afterwards, Balint adjusted the code to operate multiple motors we attempted to make 4 motors work simultaneously. Although 2 motors successfully ran together. We could not manage to get 4 of them working at the same time.
 

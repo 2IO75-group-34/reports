@@ -1,5 +1,24 @@
 # Decision List
 
+## Seventh Meeting [6 Apr 2024]
+
+**Key points:**
+
+**Up next:**
+
+## Sixth Meeting [4 May 2024]
+
+**Key points:**
+
+- Complaint from Georgi, for trello board task assignment, it is not understandable who does what at the current moment.
+- Balint fixed code so that it can handle multiple motors
+- More conveyer belt parts  
+- Virtual conveyer belt logic done in Unity
+
+**Up next:**
+
+- Assign tasks to each person
+
 ## Fifth Meeting [30 Apr 2024]
 
 **Key points:**
