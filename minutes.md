@@ -2,9 +2,33 @@
 
 Maintained by: Amir Nurmukhambetov (1930907)
 
+## Eleventh Meeting [16 May 2024]
+
+Coming soon...
+
+## Tenth Meeting [15 May 2024]
+
+Today, we met up with the neigbouiring team to discuss how we should do the communication challange. We explained our concept of NFC tags and our current progress with it.
+
+In tangent we found out our current NFC stickers are too big (25 mm) for the baggages (20 mm), which would be a problem in the future, but right now we have to understand how to work with them.
+
+Amir (me) started to list out missing parts that we need for tomorrows item shop.
+
+Amir (me), Balint, Eusebiu discussed how the software integration with physical parts and digital parts could be abstracted so that it would be easier to iterate without changing much code between two.
+
+Balint, Eusebiu, and Ibrahim worked on digital model. We met an issue with git version control. After which Amir (I) joined to help out with it also.
+
+Then, we have worked on fleshing out documents for tomorrows deadline.
+
 ## Ninth Meeting [13 May 2024]
 
-Today, during the beginning of the meeting we couldn't find the locker with parts.
+Today, during the beginning of the meeting we couldn't find the locker with parts. But after a while we found them.
+
+Balint, Joep continued working with NFC.
+
+Eusebiu, Ibrahim continued working on making digital model of the prototype.
+
+Alexia and Amir (me) worked on implementing design. We have noticed that sometimes the conveyer belts get caught and start to jam. We have lowered one of the conveyer belts + changed structure of the design.
 
 ## Eighth Meeting [7 May 2024]
 

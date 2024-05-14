@@ -1,10 +1,55 @@
 # Decision List
 
-## Seventh Meeting [6 Apr 2024]
+## Tenth Meeting [15 May 2024]
 
 **Key points:**
 
+- Software Abstraction with physical and digital parts.
+- Got a list of missings parts that we need
+- Prepared documents
+
 **Up next:**
+
+- Fix git version issues (Unity Project)
+- Get all parts from item shop
+- Hand in documents before the deadline
+- Have NFC read / write functionality
+- Building working prototype
+
+## Ninth Meeting [13 May 2024]
+
+**Key points:**
+
+- Current design of belts make them easy to jam to parts. Made the belt lower.
+- Decided not to use belt animation in Unity project
+
+**Up next:**
+
+- Have well written documentation ready
+- Fill out parts that we need to gather
+
+## Eighth Meeting [7 May 2024]
+
+**Key points:**
+
+- Broken raspberry pi, we got a replacement
+- Digital twinning in process
+- NFC tag implementation
+
+**Up next:**
+
+- Get to the NFC to work more easily.
+
+## Seventh Meeting [6 May 2024]
+
+**Key points:**
+
+- Physical implemtation of prototype design
+- Digital twinning in process
+
+**Up next:**
+
+- Start working on NFC
 
 ## Sixth Meeting [4 May 2024]
 
