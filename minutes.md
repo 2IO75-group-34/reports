@@ -38,13 +38,13 @@ Balint, Joep continued working with NFC.
 
 Eusebiu, Ibrahim continued working on making digital model of the prototype.
 
-[Latest digital design 1](./images/latest-digital-version-1.jpeg)
+![Latest digital design 1](./images/latest-digital-version-1.jpeg)
 
-[Latest digital design 2](./images/latest-digital-version-2.jpeg)
+![Latest digital design 2](./images/latest-digital-version-2.jpeg)
 
 Alexia and Amir (me) worked on implementing design. We have noticed that sometimes the conveyer belts get caught and start to jam. We have lowered one of the conveyer belts + changed structure of the design.
 
-[Jamming issue](./images/jamming-issues.jpeg)
+![Jamming issue](./images/jamming-issues.jpeg)
 
 ## Eighth Meeting [7 May 2024]
 
@@ -56,7 +56,7 @@ Joep finished working on the prototype design (working belts) but we couldn't te
 
 Ibrahim, Alexia, Eusebiu continued working on Unity.
 
-[Skeleton](./images/skeleton.jpeg)
+![Skeleton](./images/skeleton.jpeg)
 
 Joep worked on how NFC works, we managed to write data to the NFC tag.
 
@@ -66,11 +66,11 @@ Today, Eusebiu, Alexia, and Ibrahim continued working on Unity (Digital Twinning
 
 Amir (me) and Joep started on implementing figma design in real life.
 
-[Start of Prototype](./images/start-of-prototype.jpeg)
+![Start of Prototype](./images/start-of-prototype.jpeg)
 
 Balint continued working on motors and software related part.
 
-[Electronics](./images/electronics.jpeg)
+![Electronics](./images/electronics.jpeg)
 
 ## Sixth Meeting [3 May 2024]
 
