@@ -5,6 +5,17 @@
 **Key points:**
 
 - Uploaded documents
+- Fix git version issues
+- Got all parts form item shop
+- worked on NFC read / write functionality
+- Working ptototype of conveyer belts
+
+**Up next:**
+
+- Start working on Servos
+- NFC read / write functionality on raspberry pi
+- Digital twinning improved model
+- MVP of software abstration of physical and digital parts.
 
 ## Tenth Meeting [15 May 2024]
 

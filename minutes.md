@@ -6,6 +6,12 @@ Maintained by: Amir Nurmukhambetov (1930907)
 
 In the morning, Balint, Amir (me), Eusebiu went to item shop to gather missing parts. While waiting in the line, Amir (me) fleshed out documentations.
 
+Balint and Joep worked on configuring NFC stickers. We got NFC reader to work except it runs on an arduino board. We must figure out how to run it via raspberry pi.
+
+Eusebiu continued digital twinning, we managed to fix git versions, and now everyone has latest version of code. Additionally Eusebiu and Balint started working on Software Abstraction with physical and digital parts.
+
+Amir (me) and Alexia continued working on building conveyer belt after receiving all missing parts we changed the gears in some conveyer belts which made it work alot better (no slack, no jamming). By now the conveyer belts work reliabily, next we will add servos and light sensors.
+
 ## Tenth Meeting [15 May 2024]
 
 Today, we met up with the neigbouiring team to discuss how we should do the communication challange. We explained our concept of NFC tags and our current progress with it.
