@@ -4,7 +4,7 @@ Maintained by: Amir Nurmukhambetov (1930907)
 
 ## Eleventh Meeting [16 May 2024]
 
-Coming soon...
+In the morning, Balint, Amir (me), Eusebiu went to item shop to gather missing parts. While waiting in the line, Amir (me) fleshed out documentations.
 
 ## Tenth Meeting [15 May 2024]
 
@@ -13,6 +13,16 @@ Today, we met up with the neigbouiring team to discuss how we should do the comm
 In tangent we found out our current NFC stickers are too big (25 mm) for the baggages (20 mm), which would be a problem in the future, but right now we have to understand how to work with them.
 
 Amir (me) started to list out missing parts that we need for tomorrows item shop.
+
+**missing parts**
+
+- block 30
+- block 15
+- gear wheel T20 (Art no. 031021)
+- Servo lever (Art no. 132004)
+- Driver servo arm (Art no. 203658)
+- Cog wheel Z10 M1,5 (Art no. 035112)
+- Collet chuck (Art no. 035113)
 
 Amir (me), Balint, Eusebiu discussed how the software integration with physical parts and digital parts could be abstracted so that it would be easier to iterate without changing much code between two.
 
@@ -28,7 +38,13 @@ Balint, Joep continued working with NFC.
 
 Eusebiu, Ibrahim continued working on making digital model of the prototype.
 
+[Latest digital design 1](./images/latest-digital-version-1.jpeg)
+
+[Latest digital design 2](./images/latest-digital-version-2.jpeg)
+
 Alexia and Amir (me) worked on implementing design. We have noticed that sometimes the conveyer belts get caught and start to jam. We have lowered one of the conveyer belts + changed structure of the design.
+
+[Jamming issue](./images/jamming-issues.jpeg)
 
 ## Eighth Meeting [7 May 2024]
 
@@ -40,6 +56,8 @@ Joep finished working on the prototype design (working belts) but we couldn't te
 
 Ibrahim, Alexia, Eusebiu continued working on Unity.
 
+[Skeleton](./images/skeleton.jpeg)
+
 Joep worked on how NFC works, we managed to write data to the NFC tag.
 
 ## Seventh Meeting [6 May 2024]
@@ -48,7 +66,11 @@ Today, Eusebiu, Alexia, and Ibrahim continued working on Unity (Digital Twinning
 
 Amir (me) and Joep started on implementing figma design in real life.
 
+[Start of Prototype](./images/start-of-prototype.jpeg)
+
 Balint continued working on motors and software related part.
+
+[Electronics](./images/electronics.jpeg)
 
 ## Sixth Meeting [3 May 2024]
 
