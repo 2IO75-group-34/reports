@@ -2,6 +2,21 @@
 
 Maintained by: Amir Nurmukhambetov (1930907)
 
+## Twelfth Meeting [17 May 2024]
+
+Todays meeting Eusebiu and Alexia got sick so they worked online.
+
+We met up with Georgi and we have discussed how the project is going.
+
+Joep also worked from home, but he created a 3D printed piece that can be attached on servos in addition allows fitcher technic pieces to also connect. Joep and Balint got NFC functionality working, with readable / writable NFC stickers. Last thing to do is to port libraries that work on Arduino boards to Raspberry Pi board.
+    - We may actually not need to port anything, and just have the arduino board connected to raspberry pi. (this may be a more easier way, but indoing so requires proper communication between boards)
+
+Ibrahim worked on Unity part, currently he designs a digital version of the current physical version. (due to constant redesigns + custom non fitcher technic parts, the 3D model can become outdated)
+
+Amir (me) worked on physical robot. There is a potential redesign for the robot, where the middle conveyer belt can be removed, but the last conveyer belt can be extended more. This way the last conveyer belt has light sensor and servos to push things into buckets. This major redesign requires some thought, as it possible that it might hit the height limit of the robot. In addition we must clarify how the other team should receive the pieces.
+
+At the last hour we have started working on presentation.
+
 ## Eleventh Meeting [16 May 2024]
 
 In the morning, Balint, Amir (me), Eusebiu went to item shop to gather missing parts. While waiting in the line, Amir (me) fleshed out documentations.

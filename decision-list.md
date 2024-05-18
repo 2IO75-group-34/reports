@@ -1,6 +1,21 @@
 # Decision List
 
-## Eleventh Meeting
+## Twelfth Meeting [17 May 2024]
+
+**Key points:**
+
+- NFC read / write functionality
+- WIP digital twinning improved model
+- 3D printed custom servo attachable piece
+
+**Up next:**
+
+- Presentation Deadline
+- Major redesign concept design
+- NFC read / write functionality on raspberry pi
+- Improved model
+
+## Eleventh Meeting [16 May 2024]
 
 **Key points:**
 
@@ -13,9 +28,10 @@
 **Up next:**
 
 - Start working on Servos
-- NFC read / write functionality on raspberry pi
+- NFC read / write functionality
 - Digital twinning improved model
 - MVP of software abstration of physical and digital parts.
+- 3D printed custom servo attachable piece
 
 ## Tenth Meeting [15 May 2024]
 
