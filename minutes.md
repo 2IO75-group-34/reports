@@ -2,6 +2,16 @@
 
 Maintained by: Amir Nurmukhambetov (1930907)
 
+## Thirteenth Meeting [21 May 2024]
+
+In the morning we had a meeting with Georgi. We discussed our current issues and what we expect to be done next week.
+
+Amir (me) made a redesigned the robot concept. After which Amir (me) and Alexia worked on implementing it physically. We have finished with the building except there is one issue with pushing baggage to yellow containers due to lack of space.
+
+Amir (me) brought couple of servos to play around with. Balint got them to work with raspberry PI.
+
+Eusebiu and Ibrahim worked on digital twinning. Eusebiu managed to make a UI to easily add different types of baggages to the conveyer belt. Ibrahim researched ways to implement servos digitally. Additionally Ibrahim started remodeling 3D model to resemble the current robot.
+
 ## Twelfth Meeting [17 May 2024]
 
 Todays meeting Eusebiu and Alexia got sick so they worked online.
