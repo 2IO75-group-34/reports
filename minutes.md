@@ -56,7 +56,7 @@ Ibrahim and Eusebiu worked on digital twinning. Ibrahim worked on 3D model.
 
 Amir (me) implemented a section where yellow containers should be, surprisingly there was enough just enough space to build everything. After which Amir (me) started to help out Balint with NFC. Amir (me) looked into the code, and Balint explained what was going on and what is the current issue.
 
-![New design working](./videos/new-design-working.mp4)
+https://github.com/2IO75-group-34/reports/assets/60090566/d18f315a-9f2f-4b13-8541-7bd794b27d5d
 
 Eusebiu worked on the simulation, he added (digital) servo functionalites so now the baggages are pushed on command. In addition he made a manual control system to control the servos. Ibrahim worked on 3D modelling.
 
@@ -85,7 +85,8 @@ Joep also worked from home, but he created a 3D printed piece that can be attach
 
 Balint also worked on making an abstraction for digital and physical parts software.
 
-![Abstraction d2p](./videos/abstraction-digital-2-physical.mp4)
+https://github.com/2IO75-group-34/reports/assets/60090566/3d4a1968-7d19-416f-8c19-83e859e9c95a
+
 
 Ibrahim worked on Unity part, currently he designs a digital version of the current physical version. (due to constant redesigns + custom non fitcher technic parts, the 3D model can become outdated)
 
