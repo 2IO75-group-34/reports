@@ -8,6 +8,8 @@ Maintained by: Amir Nurmukhambetov (1930907)
 
 - Ibrahim finished with 3D model of the new design of the robot. Eusebiu ported new design + included newly made design of servo walls that pushes baggages. Unity simulation (digital twinning) is 80% done, whats left is having digital version of NFC working.
 
+![Simulation Operational](./images/simulation-operational.jpeg)
+
 - Amir (me) started working on how light sensors works. I've included couple of links that were helpful:
   - different robot with sensor designs: <https://docs.fischertechnikclub.nl/profi/39574.pdf>
   - cool init demo on how light sensor should work: <https://www.youtube.com/watch?v=b7xY6nF-kI8&list=PLWTQPaDoIjN1sG_mnXk3FbZ4MnhaARvvm&index=12>
@@ -31,7 +33,7 @@ Today we had a weekly meeting with Georgi and discussed about our final rubric, 
 
 - After the last meeting, Balint made NFC reader to work. Firstly it worked on NFC keychains, but after some configurations we made it work on NFC stickers.
 
-- Ibrahim worked on 3D model of new robot design + made 3D models for the servo mountings. Eusebiu had some bugs in Unity and he was fixing them.
+- Ibrahim finished working on 3D model of new robot design + made 3D models for the servo mountings. Eusebiu had some bugs in Unity and he was fixing them.
 
 - Amir (me) worked on creating a servo mountings that would properly block and push baggages to designated places. Joep brought custom pieces designed to fit servos with fitcher technic pieces, but unfortunately the proportions were not good and they didn't fit well.
 
@@ -54,6 +56,8 @@ Ibrahim and Eusebiu worked on digital twinning. Ibrahim worked on 3D model.
 
 Amir (me) implemented a section where yellow containers should be, surprisingly there was enough just enough space to build everything. After which Amir (me) started to help out Balint with NFC. Amir (me) looked into the code, and Balint explained what was going on and what is the current issue.
 
+![New design working](./videos/new-design-working.mp4)
+
 Eusebiu worked on the simulation, he added (digital) servo functionalites so now the baggages are pushed on command. In addition he made a manual control system to control the servos. Ibrahim worked on 3D modelling.
 
 ## Thirteenth Meeting [21 May 2024]
@@ -61,6 +65,8 @@ Eusebiu worked on the simulation, he added (digital) servo functionalites so now
 In the morning we had a meeting with Georgi. We discussed our current issues and what we expect to be done next week.
 
 Amir (me) made a redesigned the robot concept. After which Amir (me) and Alexia worked on implementing it physically. We have finished with the building except there is one issue with pushing baggage to yellow containers due to lack of space.
+
+![New robot redesign](./images/new-redesign-robot.png)
 
 Amir (me) brought couple of servos to play around with. Balint got them to work with raspberry PI.
 
@@ -75,15 +81,23 @@ We met up with Georgi and we have discussed how the project is going.
 Joep also worked from home, but he created a 3D printed piece that can be attached on servos in addition allows fitcher technic pieces to also connect. Joep and Balint got NFC functionality working, with readable / writable NFC stickers. Last thing to do is to port libraries that work on Arduino boards to Raspberry Pi board.
     - We may actually not need to port anything, and just have the arduino board connected to raspberry pi. (this may be a more easier way, but indoing so requires proper communication between boards)
 
+![Custom servo gearhead](./images/servo-gearhead.jpeg)
+
+Balint also worked on making an abstraction for digital and physical parts software.
+
+![Abstraction d2p](./videos/abstraction-digital-2-physical.mp4)
+
 Ibrahim worked on Unity part, currently he designs a digital version of the current physical version. (due to constant redesigns + custom non fitcher technic parts, the 3D model can become outdated)
 
 Amir (me) worked on physical robot. There is a potential redesign for the robot, where the middle conveyer belt can be removed, but the last conveyer belt can be extended more. This way the last conveyer belt has light sensor and servos to push things into buckets. This major redesign requires some thought, as it possible that it might hit the height limit of the robot. In addition we must clarify how the other team should receive the pieces.
 
 At the last hour we have started working on presentation.
 
-## Eleventh Meeting [16 May 2024]
+## Eleventh Meeting [15 May 2024]
 
-In the morning, Balint, Amir (me), Eusebiu went to item shop to gather missing parts. While waiting in the line, Amir (me) fleshed out documentations.
+In the morning, Balint, Amir (me), Eusebiu went to item shop to gather missing parts. While waiting in the line, Amir (me) fleshed out documentations. Alexia worked on conveyer belts.
+
+![](./images/15-05-2024.jpeg)
 
 Balint and Joep worked on configuring NFC stickers. We got NFC reader to work except it runs on an arduino board. We must figure out how to run it via raspberry pi.
 
@@ -91,7 +105,7 @@ Eusebiu continued digital twinning, we managed to fix git versions, and now ever
 
 Amir (me) and Alexia continued working on building conveyer belt after receiving all missing parts we changed the gears in some conveyer belts which made it work alot better (no slack, no jamming). By now the conveyer belts work reliabily, next we will add servos and light sensors.
 
-## Tenth Meeting [15 May 2024]
+## Tenth Meeting [14 May 2024]
 
 Today, we met up with the neigbouiring team to discuss how we should do the communication challange. We explained our concept of NFC tags and our current progress with it.
 
