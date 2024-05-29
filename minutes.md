@@ -2,6 +2,60 @@
 
 Maintained by: Amir Nurmukhambetov (1930907)
 
+## Seventeenth Meeting [29 May 2024]
+
+- Balint continued working on NFC. NFC functinality works but the program is not extendible, so Balint worked on extending the library.
+
+- Ibrahim finished with 3D model of the new design of the robot. Eusebiu ported new design + included newly made design of servo walls that pushes baggages. Unity simulation (digital twinning) is 80% done, whats left is having digital version of NFC working.
+
+- Amir (me) started working on how light sensors works. I've included couple of links that were helpful:
+  - different robot with sensor designs: <https://docs.fischertechnikclub.nl/profi/39574.pdf>
+  - cool init demo on how light sensor should work: <https://www.youtube.com/watch?v=b7xY6nF-kI8&list=PLWTQPaDoIjN1sG_mnXk3FbZ4MnhaARvvm&index=12>
+
+In addition after looking through couple of different designs, Amir (me) came across a way to make sure conveyer belts wont wobble. This feature I've implemented and now the belts are stable and won't sag in the middle + this makes conveyer belts higher allowing the baggage to block light sensors better.
+
+Some parts we really need:
+
+- **color recognition sensor**: <https://www.tinytronics.nl/en/sensors/optical/light-and-color/tcs3200d-tcs230-color-recognition-sensor>
+- **infared break beam sensor**: <https://www.tinytronics.nl/en/sensors/optical/infrared/infrared-break-beam-sensor>
+- **LCD Display**:
+- some small fitcher technic parts:
+  - **6x struct adapters**: <https://www.fischertechnik.de/en/products/spare-parts/structural-design/31848-strut-adapter-red>
+  - **2x I-Struct with bore**: <https://www.fischertechnik.de/en/products/spare-parts/structural-design/36923-i-strut-with-bore-75-black>
+  - **6x mounting plates**: <https://www.fischertechnik.de/en/products/spare-parts/building-blocks/38464-mounting-plate-15x60-red>
+  - **4x 15 degree angle block**: <https://www.fischertechnik.de/en/products/spare-parts/building-blocks/angled-block/31981-angular-block-15-red>
+
+## Sixteenth Meeting [28 May 2024]
+
+Today we had a weekly meeting with Georgi and discussed about our final rubric, he pointed couple of things to change. Overall, everything going well.  
+
+- After the last meeting, Balint made NFC reader to work. Firstly it worked on NFC keychains, but after some configurations we made it work on NFC stickers.
+
+- Ibrahim worked on 3D model of new robot design + made 3D models for the servo mountings. Eusebiu had some bugs in Unity and he was fixing them.
+
+- Amir (me) worked on creating a servo mountings that would properly block and push baggages to designated places. Joep brought custom pieces designed to fit servos with fitcher technic pieces, but unfortunately the proportions were not good and they didn't fit well.
+
+- Joep worked on updating our final rubric from Georigies feedback. After that he worked on redesigning custom piece for servos.
+
+Some other things:
+
+- we answered couple of questions of the other team (group 33).
+- we looked through the internet on cheap displays.
+
+## Fifthteen Meeting [27 May 2024]
+
+Today not so much progress was done. Amir (me) and Alexia worked on updating our initial rubric for the "final rubric" assignement. Then Amir (me) went to help out Balint with NFC, and Alexia worked on how to use light sensors.
+
+Amir and Balint found a tutorial that how to implement NFC chip with a raspberry pi. This tutorial was helpful, but we didn't have enough time to completely implement it.
+
+Ibrahim and Eusebiu worked on digital twinning. Ibrahim worked on 3D model.
+
+## Fourteenth Meeting [24 May 2024]
+
+Amir (me) implemented a section where yellow containers should be, surprisingly there was enough just enough space to build everything. After which Amir (me) started to help out Balint with NFC. Amir (me) looked into the code, and Balint explained what was going on and what is the current issue.
+
+Eusebiu worked on the simulation, he added (digital) servo functionalites so now the baggages are pushed on command. In addition he made a manual control system to control the servos. Ibrahim worked on 3D modelling.
+
 ## Thirteenth Meeting [21 May 2024]
 
 In the morning we had a meeting with Georgi. We discussed our current issues and what we expect to be done next week.
