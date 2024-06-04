@@ -8,7 +8,7 @@ Today in the morning we met up with Georgi, we discussed what we have currently 
 
 - Balint got light sensors (photo resistor) to work, after that went on to help Eusebiu with servo code.
 
-![](https://github.com/2IO75-group-34/reports/assets/60090566/dd2201b8-fdc0-4a41-9a3a-f0de25e99874)
+https://github.com/2IO75-group-34/reports/assets/60090566/dd2201b8-fdc0-4a41-9a3a-f0de25e99874
 
 - Eusebiu worked on servo logic code and with the help from Balint got them to work as well.
 
@@ -40,7 +40,7 @@ For last hour we wired servos to the robot, and checked if the setup works. Down
 
 - Eusebiu got the simulation working! The digital twin is identical to physical robot and demonstrates that the concept works as it should.
 
-![](https://github.com/2IO75-group-34/reports/assets/60090566/5f854fd4-7779-4e53-9d99-49f416464578)
+https://github.com/2IO75-group-34/reports/assets/60090566/5f854fd4-7779-4e53-9d99-49f416464578
 
 - Today was last open shop day, Ibrahim went there and got last missing pieces required to have stable conveyer belts.
 
@@ -108,7 +108,7 @@ Ibrahim and Eusebiu worked on digital twinning. Ibrahim worked on 3D model.
 
 Amir (me) implemented a section where yellow containers should be, surprisingly there was enough just enough space to build everything. After which Amir (me) started to help out Balint with NFC. Amir (me) looked into the code, and Balint explained what was going on and what is the current issue.
 
-![](https://github.com/2IO75-group-34/reports/assets/60090566/d18f315a-9f2f-4b13-8541-7bd794b27d5d)
+https://github.com/2IO75-group-34/reports/assets/60090566/d18f315a-9f2f-4b13-8541-7bd794b27d5d
 
 Eusebiu worked on the simulation, he added (digital) servo functionalites so now the baggages are pushed on command. In addition he made a manual control system to control the servos. Ibrahim worked on 3D modelling.
 
@@ -137,7 +137,7 @@ Joep also worked from home, but he created a 3D printed piece that can be attach
 
 Balint also worked on making an abstraction for digital and physical parts software.
 
-![](https://github.com/2IO75-group-34/reports/assets/60090566/3d4a1968-7d19-416f-8c19-83e859e9c95a)
+https://github.com/2IO75-group-34/reports/assets/60090566/3d4a1968-7d19-416f-8c19-83e859e9c95a
 
 Ibrahim worked on Unity part, currently he designs a digital version of the current physical version. (due to constant redesigns + custom non fitcher technic parts, the 3D model can become outdated)
 
