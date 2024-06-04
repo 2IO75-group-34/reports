@@ -22,9 +22,11 @@ For last hour we wired servos to the robot, and checked if the setup works. Down
 
 - We are currently stuck with NFC, so Balint started working on light sensors (photo resistors). Some progres was made, where black baggages do block most of the light (shows low ~0.02 voltage) but white baggages show (~0.7 voltage) which is not ideal. We expect that no matter what object blocks the light sensor we can detect it.
 
+![light sensor](./images/3-june-light-sensors.jpeg)
+
 - Joep brought new custom pieces for the servos, some adjustments was needed for servos to attach but finally the physical robot is built!
 
-![light sensor](./images/4-june-version.jpeg)
+![3 june version](./images/3-june-version.jpeg)
 
 - Amir (me) attached the servos. Then I started to work on light sensors with Balint.
 
