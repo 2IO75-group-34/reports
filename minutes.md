@@ -8,6 +8,10 @@ Today in the morning we met up with Georgi, we discussed what we have currently 
 
 - Balint got light sensors (photo resistor) to work, after that went on to help Eusebiu with servo code.
 
+
+https://github.com/2IO75-group-34/reports/assets/60090566/dd2201b8-fdc0-4a41-9a3a-f0de25e99874
+
+
 - Eusebiu worked on servo logic code and with the help from Balint got them to work as well.
 
 - Amir (me) and Joep worked on color sensor. After reading documentations Amir (me) went on implementing code for it, and Joep started on wiring it with raspberry pi. After some help from Balint and couple of debugging color sensor began to work, except it can detect red well, but green or blue are ignored. Additionally white and black can be detected very well. Then Amir (me) attached color sensor to the robot.
@@ -37,6 +41,10 @@ For last hour we wired servos to the robot, and checked if the setup works. Down
 ## Eighteenth Meeting [31 May 2024]
 
 - Eusebiu got the simulation working! The digital twin is identical to physical robot and demonstrates that the concept works as it should.
+
+
+https://github.com/2IO75-group-34/reports/assets/60090566/5f854fd4-7779-4e53-9d99-49f416464578
+
 
 - Today was last open shop day, Ibrahim went there and got last missing pieces required to have stable conveyer belts.
 
