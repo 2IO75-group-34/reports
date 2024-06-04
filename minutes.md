@@ -16,7 +16,7 @@ Today in the morning we met up with Georgi, we discussed what we have currently 
 
 For last hour we wired servos to the robot, and checked if the setup works. Down below is demo of servo working.
 
-[4 june version](./images/4-june-version.jpeg)
+![4 june version](./images/4-june-version.jpeg)
 
 ## Nineteenth Meeting [3 June 2024]
 
@@ -24,7 +24,7 @@ For last hour we wired servos to the robot, and checked if the setup works. Down
 
 - Joep brought new custom pieces for the servos, some adjustments was needed for servos to attach but finally the physical robot is built!
 
-[light sensor](./images/4-june-version.jpeg)
+![light sensor](./images/4-june-version.jpeg)
 
 - Amir (me) attached the servos. Then I started to work on light sensors with Balint.
 
@@ -44,9 +44,9 @@ For last hour we wired servos to the robot, and checked if the setup works. Down
 
 Current version of the robot.
 
-[version 1](./images/31-may-version-1.jpeg)
+![version 1](./images/31-may-version-1.jpeg)
 
-[version-2](./images/31-may-version-2.jpeg)
+![version-2](./images/31-may-version-2.jpeg)
 
 ## Seventeenth Meeting [29 May 2024]
 
