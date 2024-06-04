@@ -2,6 +2,52 @@
 
 Maintained by: Amir Nurmukhambetov (1930907)
 
+## Twenteeth Meeting [4 June 2024]
+
+Today in the morning we met up with Georgi, we discussed what we have currently and what we need to finish. We have to pick up a pace with finishing everything else. At the start we assigned tasks for each person. As previosly most of the work was on Balint.
+
+- Balint got light sensors (photo resistor) to work, after that went on to help Eusebiu with servo code.
+
+- Eusebiu worked on servo logic code and with the help from Balint got them to work as well.
+
+- Amir (me) and Joep worked on color sensor. After reading documentations Amir (me) went on implementing code for it, and Joep started on wiring it with raspberry pi. After some help from Balint and couple of debugging color sensor began to work, except it can detect red well, but green or blue are ignored. Additionally white and black can be detected very well. Then Amir (me) attached color sensor to the robot.
+
+- Ibrahim and Alexia worked on fixing couple of issues with physical robot. Alexia managed to resolve jamming problems in conveyer belt and Ibrahim placed conveyer belt pieces, so that the conveyer belt doesn't have holes.
+
+For last hour we wired servos to the robot, and checked if the setup works. Down below is demo of servo working.
+
+[4 june version](./images/4-june-version.jpeg)
+
+## Nineteenth Meeting [3 June 2024]
+
+- We are currently stuck with NFC, so Balint started working on light sensors (photo resistors). Some progres was made, where black baggages do block most of the light (shows low ~0.02 voltage) but white baggages show (~0.7 voltage) which is not ideal. We expect that no matter what object blocks the light sensor we can detect it.
+
+- Joep brought new custom pieces for the servos, some adjustments was needed for servos to attach but finally the physical robot is built!
+
+[light sensor](./images/4-june-version.jpeg)
+
+- Amir (me) attached the servos. Then I started to work on light sensors with Balint.
+
+- Eusebiu started working on merging C# code from unity to C++. Most of the motor logic was implemented. Balint looked over the code and did some refactoring with Eusebiu.
+
+- Alexia worked on final documentation.
+
+## Eighteenth Meeting [31 May 2024]
+
+- Eusebiu got the simulation working! The digital twin is identical to physical robot and demonstrates that the concept works as it should.
+
+- Today was last open shop day, Ibrahim went there and got last missing pieces required to have stable conveyer belts.
+
+- Amir (me) after reciving missing pieces, finished making the rest of the conveyer belt stable. Then I continued on working with light sensors.
+
+- Balint worked on NFC, not much progress was done.
+
+Current version of the robot.
+
+[version 1](./images/31-may-version-1.jpeg)
+
+[version-2](./images/31-may-version-2.jpeg)
+
 ## Seventeenth Meeting [29 May 2024]
 
 - Balint continued working on NFC. NFC functinality works but the program is not extendible, so Balint worked on extending the library.
@@ -56,7 +102,7 @@ Ibrahim and Eusebiu worked on digital twinning. Ibrahim worked on 3D model.
 
 Amir (me) implemented a section where yellow containers should be, surprisingly there was enough just enough space to build everything. After which Amir (me) started to help out Balint with NFC. Amir (me) looked into the code, and Balint explained what was going on and what is the current issue.
 
-https://github.com/2IO75-group-34/reports/assets/60090566/d18f315a-9f2f-4b13-8541-7bd794b27d5d
+<https://github.com/2IO75-group-34/reports/assets/60090566/d18f315a-9f2f-4b13-8541-7bd794b27d5d>
 
 Eusebiu worked on the simulation, he added (digital) servo functionalites so now the baggages are pushed on command. In addition he made a manual control system to control the servos. Ibrahim worked on 3D modelling.
 
@@ -85,8 +131,7 @@ Joep also worked from home, but he created a 3D printed piece that can be attach
 
 Balint also worked on making an abstraction for digital and physical parts software.
 
-https://github.com/2IO75-group-34/reports/assets/60090566/3d4a1968-7d19-416f-8c19-83e859e9c95a
-
+<https://github.com/2IO75-group-34/reports/assets/60090566/3d4a1968-7d19-416f-8c19-83e859e9c95a>
 
 Ibrahim worked on Unity part, currently he designs a digital version of the current physical version. (due to constant redesigns + custom non fitcher technic parts, the 3D model can become outdated)
 
